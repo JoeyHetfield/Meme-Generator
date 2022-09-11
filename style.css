@@ -1,0 +1,35 @@
+header {
+   display: block;
+   justify-content: center;
+   text-align: center;
+   box-sizing: border-box;
+   font-size: 20px;
+   height: 50px;
+   }
+
+#imagemDoMeme {
+    padding-left: 10px;
+}
+
+#meme-image-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+#meme-image{
+    width: 100%;
+    height: 100%;
+
+}
+
+#meme-text{
+    position: fixed;
+    color: red;
+    font-size: 35px;
+    text-align: center;
+
+
+}
