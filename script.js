@@ -6,7 +6,7 @@ let receberImage = document.getElementById('meme-image')
 
 //Colocar o texto do input na tela
 inputText.addEventListener('input', function(){
-    receberText.innerHTML = inputText.value
+    receberText.innerText = inputText.value
 })
 
 
