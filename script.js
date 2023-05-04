@@ -2,8 +2,7 @@ const inputText = document.getElementById('text-input');
 const receberText = document.getElementById('meme-text');
 const inputImage = document.getElementById('meme-insert');
 const receberImage = document.getElementById('meme-image');
-const container = document.querySelector('#meme-image-container')
-let meme1 = document.getElementById('meme-1');
+const container = document.querySelector('#meme-image-container');
 
 // Colocar o texto do input na tela
 inputText.addEventListener('input', function () {
@@ -18,17 +17,17 @@ function insertImage(event) {
 inputImage.addEventListener('change', insertImage);
 
 function changeFire() {
-  container.style.border = '3px dashed red' 
+  container.style.border = '3px dashed red';
 }
 
 function changeWater() {
-  container.style.border = '5px double blue'
+  container.style.border = '5px double blue';
 }
 
 function changeEarth() {
-  container.style.border = '6px groove green'
+  container.style.border = '6px groove green';
 }
 
 function addImage(event) {
-  receberImage.src = event.target.src
+  receberImage.src = event.target.src;
 }
